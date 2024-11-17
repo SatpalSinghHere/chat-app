@@ -8,7 +8,7 @@ class SocketService {
     }
 
     get io(): Server{
-        return this.io
+        return this._io
     }
 }
 
