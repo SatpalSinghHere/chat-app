@@ -9,13 +9,18 @@ export default function Page() {
 
   return (
     <div>
-      <div>
-        <h2>All messages will appear here :</h2>
-      </div>
-      <div>
-        <input onChange={e => setMessage(e.target.value)} className={classes['chat-input']} type="text" /> 
-        <button onClick={e => sendMessage(message)} className={classes['send-button']}>Send</button>
-      </div>
+      <div className='bg-bgImage fixed w-[120%] h-[120%] blur-xl -top-10 -left-10'></div>
+      
+        <div className='opacity-100 relative'>
+          <div>
+            <h2>All messages will appear here :</h2>
+          </div>
+          <div className='opacity-100'>
+            <input onChange={e => setMessage(e.target.value)} className={classes['chat-input']} type="text" />
+            <button onClick={e => sendMessage(message)} className={classes['send-button']}>Send</button>
+          </div>
+        </div>
+      
     </div>
   )
 }

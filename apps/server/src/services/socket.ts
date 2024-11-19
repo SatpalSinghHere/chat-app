@@ -31,12 +31,6 @@ const sub = new Redis({
     lazyConnect: true
     
   })
-// const sub = new Redis({
-//     port: 6379, // Redis port
-//     host: "fancy-ghost-29480.upstash.io", // Redis host
-//     // username: "default", // needs Redis >= 6
-//     password: 'AXMoAAIjcDE2MDllNTk4OWViODU0NTBjYTQ3ZGY5MTNlNWE4OGZiNHAxMA', 
-// })
 
 class SocketService {
     private _io: Server
