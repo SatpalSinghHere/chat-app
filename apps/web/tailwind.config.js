@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'bgImage': "url('https://wallpapercrafter.com/th8001/538343-abstract-colorful-circle-bubbles-shapes-digital.jpg')",
+        'bgImage': "url('/img/easter eggs background bg.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",
       }
     },

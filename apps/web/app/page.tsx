@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { useSocket } from '../context/SocketProvider'
 import classes from './page.module.css'
-import BgCanvas from '../components/BgCanvas'
+
 
 export default function Page() {
   const { sendMessage } = useSocket()
@@ -10,8 +10,8 @@ export default function Page() {
 
   return (
     <div>
-      {/* <div className='bg-bgImage fixed w-[120%] h-[120%] blur-xl -top-10 -left-10'></div> */}
-      <BgCanvas />
+      <div className='bg-bgImage fixed w-[120%] h-[120%] blur-xl -top-10 -left-10'></div>
+      
       
         <div className='opacity-100 relative'>
           <div>
