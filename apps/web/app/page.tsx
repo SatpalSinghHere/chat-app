@@ -10,7 +10,7 @@ export default function Page() {
 
   return (
     <div>
-      <div className='bg-bgImage fixed w-[120%] h-[120%] blur-xl -top-10 -left-10'></div>
+      <div className='bg-bgImage fixed w-[120%] h-[120%] blur-xl -top-10 -left-10 flex items-center justify-center'></div>
       
       
         <div className='opacity-100 relative'>
